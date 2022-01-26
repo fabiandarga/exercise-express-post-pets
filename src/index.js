@@ -1,5 +1,5 @@
 import express from 'express';
-import { addPet, getPet } from './database';
+import { addPet, getPet } from './database.js';
 
 const port = 4000;
 const app = express();
